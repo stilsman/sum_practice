@@ -1,0 +1,234 @@
+html {
+  font-family: "Gilroy", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 950px;
+}
+
+.header {
+  padding: 30px 0 105px 0;
+  min-height: 500px;
+}
+.header-nav .menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.header-nav .menu-item {
+  list-style: none;
+}
+.header-nav .menu-item a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #828282;
+  transition: 0.2s all;
+}
+.header-nav .menu-item a:hover {
+  color: #070707;
+}
+.header-line {
+  margin-top: 40px;
+  width: 950px;
+  height: 1px;
+  background-color: #828282;
+}
+.header-main {
+  margin-top: 40px;
+}
+.header-main-info {
+  display: flex;
+  justify-content: space-between;
+}
+.header-main-info-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 47px;
+  color: #070707;
+}
+.header-main-info-subtitle {
+  margin-top: 55px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #070707;
+}
+.header-main-info-lang {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+.header-main-info-lang a {
+  position: relative;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #828282;
+  transition: 0.2s all;
+}
+.header-main-info-lang a:hover {
+  color: #000000;
+}
+.header-main-info-lang a:first-child {
+  margin: 0 0 5px 0;
+}
+.header-main-info-lang a:first-child::after {
+  position: absolute;
+  content: "";
+  transform: rotate(90deg);
+  right: 10px;
+  top: 18px;
+  width: 2px;
+  height: 16px;
+  background-color: #000000;
+}
+.header-img {
+  padding-top: 50px;
+}
+
+.info {
+  min-height: 40px;
+  padding: 120px 0 110px 0;
+  background-color: #f6f6f6;
+}
+.info-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #070707;
+}
+.info-descr {
+  margin: 20px auto 0 auto;
+  max-width: 485px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+.info-descr span {
+  display: block;
+  margin-top: 52px;
+}
+
+.skills {
+  min-height: 610px;
+  padding: 90px 0 110px 0;
+}
+.skills-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #070707;
+}
+.skills-descr {
+  margin-top: 70px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #070707;
+}
+.skills-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 84px;
+}
+.skills-wrapper-items {
+  width: 166px;
+}
+.skills-wrapper-items-icon {
+  display: block;
+  margin: 0 auto;
+}
+.skills-wrapper-items-desrc {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+.skills-wrapper-items-stars {
+  margin-top: 40px;
+}
+
+.portfolio {
+  padding: 112px 0 96px 0;
+  background-color: #f6f6f6;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #070707;
+}
+.portfolio-wrapper {
+  margin-top: 50px;
+}
+.portfolio-wrapper-items {
+  margin-top: 100px;
+}
+.portfolio-wrapper-items-link {
+  display: block;
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+.portfolio-wrapper-items-link:hover {
+  color: #070707;
+}
+.portfolio-wrapper-items:first-child {
+  margin-top: 0;
+}
+
+.footer {
+  padding: 115px 0 123px 0;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #070707;
+}
+.footer-descr {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #070707;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 342px;
+  margin: 0 auto;
+  margin-top: 85px;
+}
+.footer-info {
+  margin-top: 45px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #828282;
+}
+
+.btn {
+  display: block;
+  margin: 30px auto 0 auto;
+  width: 180px;
+  height: 42px;
+  background-color: black;
+  border-radius: 20px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  transition: all 0.2s;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
