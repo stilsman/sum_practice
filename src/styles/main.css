@@ -1,0 +1,7 @@
+@import "./reset.css";
+
+body {
+  font-family: "FreeMono", sans-serif;
+  color: #313338;
+  background: #151925;
+}
